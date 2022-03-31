@@ -5,6 +5,10 @@ https://www.behance.net/gallery/90079519/Resume-Landing-page */
     border-radius: 100%;
 }
 
+.titles {
+    line-height: 40px;
+}
+
 h1, h2 {
     font-family: 'montserrat', sans-serif;
 }
@@ -60,4 +64,10 @@ h4 {
     padding: 7px 15px;
     line-height: 40px;
     border-radius: 4px;
+}
+
+.text-flyer {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    line-height: 25px;
 }
