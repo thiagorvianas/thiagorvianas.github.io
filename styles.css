@@ -1,6 +1,7 @@
 #foto-do-thiago {
     border-radius: 100%;
 }
+
 h1, h2 {
     font-family: 'montserrat', sans-serif;
 }
@@ -10,10 +11,25 @@ h3 {
     color: rgb(66, 175, 139);
 }
 
+h4 {
+    font-family: 'montserrat', sans-serif;
+}
+
 .color-titles {
     color: rgb(66, 175, 139);
 }
 
 .color-texts {
     color: rgb(49, 49, 49);
+}
+
+.menu-buttons {
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+}
+
+#menu {
+    font-family: 'montserrat', sans-serif;
+    background-color: rgb(66, 175, 139);
 }
