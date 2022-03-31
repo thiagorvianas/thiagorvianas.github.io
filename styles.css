@@ -1,3 +1,6 @@
+/* Referências utilizadas para estilização:
+https://www.behance.net/gallery/90079519/Resume-Landing-page */
+
 #foto-do-thiago {
     border-radius: 100%;
 }
@@ -37,4 +40,5 @@ h4 {
 .subtitle {
     font-size: 14px;
     font-style: italic;
+    color: rgb(73, 73, 73);
 }
