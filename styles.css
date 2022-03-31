@@ -28,8 +28,12 @@ h4 {
 
 .menu-buttons {
     text-decoration: none;
-    color: white;
+    color: rgb(73, 73, 73);
     font-family: monospace;
+    background-color: white;
+    padding: 7px 15px;
+    line-height: 40px;
+    border-radius: 4px;
 }
 
 #menu {
@@ -41,4 +45,9 @@ h4 {
     font-size: 14px;
     font-style: italic;
     color: rgb(73, 73, 73);
+}
+
+.topics {
+    color: rgb(255, 255, 255);
+    background-color: rgb(66, 175, 139);
 }
