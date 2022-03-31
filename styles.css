@@ -1,0 +1,73 @@
+/* Referências utilizadas para estilização:
+https://www.behance.net/gallery/90079519/Resume-Landing-page */
+
+#foto-do-thiago {
+    border-radius: 100%;
+}
+
+.titles {
+    line-height: 40px;
+}
+
+h1, h2 {
+    font-family: 'montserrat', sans-serif;
+}
+
+h3 {
+    font-family: monospace;
+    color: rgb(66, 175, 139);
+}
+
+h4 {
+    font-family: 'montserrat', sans-serif;
+}
+
+.color-titles {
+    color: rgb(66, 175, 139);
+}
+
+.color-texts {
+    color: rgb(49, 49, 49);
+}
+
+.menu-buttons {
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+    font-family: monospace;
+    background-color: white;
+    padding: 7px 15px;
+    line-height: 40px;
+    border-radius: 4px;
+}
+
+#menu {
+    font-family: 'montserrat', sans-serif;
+    background-color: rgb(66, 175, 139);
+}
+
+.subtitle {
+    font-size: 14px;
+    font-style: italic;
+    color: rgb(73, 73, 73);
+}
+
+.topics {
+    color: rgb(255, 255, 255);
+    background-color: rgb(66, 175, 139);
+}
+
+.link-buttons {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    background-color: rgb(73, 73, 73);
+    padding: 7px 15px;
+    line-height: 40px;
+    border-radius: 4px;
+}
+
+.text-flyer {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    line-height: 25px;
+}
