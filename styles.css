@@ -66,6 +66,7 @@ h4 {
     text-align: center;
     display: inline-block;
     padding: 10px;
+    font-family: monospace;
 }
 
 .link-buttons {
@@ -83,18 +84,17 @@ h4 {
     font-size: 15px;
     line-height: 25px;
     text-align: justify;
+    padding-top: 15px;
+    margin: 0px;
 }
 
 .header {
     text-align: center;
+    font-size: 25px;
 }
 
 body {
     background-color: rgb(66, 175, 139);
-}
-
-div {
-    background-color: rgb(34, 33, 33);
 }
 
 ul {
@@ -102,15 +102,11 @@ ul {
 }
 
 .indice {
-    padding: 10px;
+    padding: 3px;
     color: white;
     background-color: rgb(66, 175, 139);
     text-align: center;
     margin-top: 10px;
-}
-
-.indice h4 {
-    padding: 2px;
 }
 
 #name {
@@ -128,7 +124,7 @@ ul {
 }
 
 .informations {
-    padding: 20px;
+    padding: 35px;
     margin-top: 10px;
     background-color: rgb(34, 33, 33);
 }
@@ -137,11 +133,26 @@ ul {
     display: inline;
 }
 
-.header {
+.header, .me {
     background-color: rgb(34, 33, 33);
 }
 
 .baseboard {
     margin-top: 10px;
     background-color: rgb(34, 33, 33);
+}
+
+.my-name {
+    color: white;
+    font-family: 'montserrat', sans-serif;
+    display: block;
+    font-size: 25px;
+}
+
+.links {
+    padding: 35px;
+}
+
+#links {
+    padding-bottom: 10px;
 }
