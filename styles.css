@@ -7,10 +7,13 @@ https://www.behance.net/gallery/90079519/Resume-Landing-page */
 
 .titles {
     line-height: 40px;
+    text-align: center;
+    margin: 0px;
 }
 
 h1, h2 {
     font-family: 'montserrat', sans-serif;
+    padding: 20px 0px 0px 0px;
 }
 
 h3 {
@@ -20,6 +23,7 @@ h3 {
 
 h4 {
     font-family: 'montserrat', sans-serif;
+    padding: 10px;
 }
 
 .color-titles {
@@ -40,9 +44,13 @@ h4 {
     border-radius: 4px;
 }
 
-#menu {
+.menu {
     font-family: 'montserrat', sans-serif;
     background-color: rgb(66, 175, 139);
+    list-style: none;
+    padding: 2px 0px 15px;
+    vertical-align: middle;
+    margin: 0px;
 }
 
 .subtitle {
@@ -70,4 +78,34 @@ h4 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
     line-height: 25px;
+}
+
+.header {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(66, 175, 139);
+}
+
+div {
+    background-color: rgb(255, 255, 255);
+}
+
+ul {
+    margin: 0px;
+}
+
+li {
+    display: inline;
+}
+
+.indice {
+    padding: 10px 10px 1px;
+    color: white;
+    background-color: rgb(66, 175, 139);
+}
+
+.indice h4 {
+    padding: 2px;
 }
