@@ -12,7 +12,8 @@ https://www.behance.net/gallery/90079519/Resume-Landing-page */
     padding: 25px;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'montserrat', sans-serif;
     text-align: center;
 }
@@ -29,6 +30,11 @@ h4 {
 
 .color-titles {
     color: rgb(66, 175, 139);
+}
+
+body {
+    background-color: rgb(66, 175, 139);
+    margin: 0px;
 }
 
 .color-texts {
@@ -93,9 +99,7 @@ h4 {
     font-size: 25px;
 }
 
-body {
-    background-color: rgb(66, 175, 139);
-}
+
 
 ul {
     margin: 0px;
@@ -114,13 +118,19 @@ ul {
     text-align: center;
 }
 
-#name h2, h3 {
+#name h2,
+h3 {
     margin: 0px;
 }
 
-.me {
+#me {
     text-align: center;
     padding-bottom: 25px;
+    background-image: url(/image/codigo.jpeg);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: 1080px;
+    background-color: rgb(34, 33, 33);
 }
 
 .informations {
@@ -129,11 +139,12 @@ ul {
     background-color: rgb(34, 33, 33);
 }
 
-.menu li{
+.menu li {
     display: inline;
 }
 
-.header, .me {
+.header,
+.me {
     background-color: rgb(34, 33, 33);
 }
 
