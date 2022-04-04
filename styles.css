@@ -9,11 +9,12 @@ https://www.behance.net/gallery/90079519/Resume-Landing-page */
     line-height: 40px;
     text-align: center;
     margin: 0px;
+    padding: 25px;
 }
 
 h1, h2 {
     font-family: 'montserrat', sans-serif;
-    padding: 20px 0px 0px 0px;
+    text-align: center;
 }
 
 h3 {
@@ -31,14 +32,14 @@ h4 {
 }
 
 .color-texts {
-    color: rgb(49, 49, 49);
+    color: rgb(255, 255, 255);
 }
 
 .menu-buttons {
     text-decoration: none;
-    color: rgb(73, 73, 73);
+    color: rgb(255, 255, 255);
     font-family: monospace;
-    background-color: white;
+    background-color: rgb(34, 33, 33);
     padding: 7px 15px;
     line-height: 40px;
     border-radius: 4px;
@@ -56,12 +57,14 @@ h4 {
 .subtitle {
     font-size: 14px;
     font-style: italic;
-    color: rgb(73, 73, 73);
+    color: rgb(129, 129, 129);
 }
 
 .topics {
     color: rgb(255, 255, 255);
     background-color: rgb(66, 175, 139);
+    text-align: center;
+    display: inline-block;
 }
 
 .link-buttons {
@@ -89,7 +92,7 @@ body {
 }
 
 div {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(34, 33, 33);
 }
 
 ul {
@@ -104,8 +107,23 @@ li {
     padding: 10px 10px 1px;
     color: white;
     background-color: rgb(66, 175, 139);
+    text-align: center;
 }
 
 .indice h4 {
     padding: 2px;
+}
+
+#name {
+    padding: 50px;
+    text-align: center;
+}
+
+#name h2, h3 {
+    margin: 0px;
+}
+
+.me {
+    text-align: center;
+    padding-bottom: 25px;
 }
